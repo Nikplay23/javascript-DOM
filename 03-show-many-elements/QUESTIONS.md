@@ -6,4 +6,4 @@
 
 > How did you go about hiding elements initially?
 
-Your reply here...
+Lai to izdarītu es pievienoju stilus ar "display: none", tas nozīme, ka elementi būs paslēpti.
