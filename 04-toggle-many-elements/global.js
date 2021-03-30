@@ -6,14 +6,14 @@ window.addEventListener("load", function(){
 
   button.addEventListener("click", function() {
 
-    var divs_to_toggle = document.getElementsByClassName('toggle_me');
+    var toggle = document.getElementsByClassName('toggle_me');
 
-    for (var i = 0; i < divs_to_toggle.length; i++) {
-      if (divs_to_toggle[i].style.display === "none") {
-        divs_to_toggle[i].style.display = "block";
+    for (var i = 0; i < toggle.length; i++) {
+      if (toggle[i].style.display === "none") {
+          toggle[i].style.display = "block";
       }
       else {
-        divs_to_toggle[i].style.display = "none";
+          toggle[i].style.display = "none";
       }
     }
   });

@@ -1,5 +1,5 @@
 // Your JavaScript goes here.
-window.onload = function() {
+window.addEventListener("load", function(){
 
     var first_numbers = document.getElementById("first");
     var second_numbers = document.getElementById("second");
@@ -23,5 +23,5 @@ window.onload = function() {
       }
     });
   
-  };
+});
     

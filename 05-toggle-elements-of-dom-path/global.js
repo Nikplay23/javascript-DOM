@@ -1,6 +1,6 @@
 // Your JavaScript goes here.
 
-window.onload = function() {
+window.addEventListener("load", function(){
 
     var toggle_movie = document.getElementById('toggle_button');
   
@@ -19,4 +19,4 @@ window.onload = function() {
   
     });
   
-  };
+});
